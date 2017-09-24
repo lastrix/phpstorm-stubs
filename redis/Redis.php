@@ -1693,6 +1693,7 @@ class Redis
     /**
      * @see keys()
      * @param   string  $pattern
+     * @return array
      * @link    http://redis.io/commands/keys
      */
     public function getKeys( $pattern ) {}
